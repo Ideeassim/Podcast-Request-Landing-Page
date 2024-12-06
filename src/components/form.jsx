@@ -46,7 +46,7 @@ function Form() {
             /> 
             </div>
             <div>
-                <button type='submit' className='req' style={{ outline: errors.email && 'none'}}>Request Access</button>
+                <button type='submit' className='req' style={{ outline:'none'}}>Request Access</button>
             </div>
             <div>
                 {errors.email && <span style={{color:'#FB3E3E'}}>{errors.email}</span>}
