@@ -1,0 +1,152 @@
+
+
+.outer{
+  width: 23.4rem;
+  height: 68rem;
+  background-image: url(../starter-code/assets/mobile/image-host.jpg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  
+}
+
+.inner{
+  width: 23.4rem;
+  height: 60.75rem;   
+background: rgb(18, 23, 37);
+opacity: 0.8
+}
+
+
+.logo-section{
+  border: solid pink;
+}
+.logo-div>p{
+  font-family: "Chivo", sans-serif;
+  color: white;
+  font-size: 2.8rem;
+  margin-top: 3.125rem;
+  margin-bottom: 1.875 rem;
+}
+.logo-div{
+  display: flex;
+  border: solid red;
+  gap: 5%;
+  margin-top: 15%;
+  padding-top: 2%;
+  padding-left: 18%;
+  height: 8.1rem;
+}
+.img-div{
+  height: 6.563rem ;
+  width: 30%;
+  border: solid yellow;
+  object-fit: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.img-div>img{
+  width: 3.125rem ;
+  height: 3.125rem;
+}
+
+/* section 2 */
+.textBox{
+  opacity: 1;
+  color: white;
+  font-family: 'Chivo', sans-serif;
+  height: 13.7rem;
+  border: solid red;
+  margin-bottom: 0%;
+}
+.publish>span{
+  color:#54E6AF ;
+  
+}
+.publish{
+font-family: 'Chivo';
+Font-weight: 100;
+Font-size: 1.75rem;
+margin-top: 0.188rem;
+letter-spacing: 0rem;
+text-align: center;
+margin-bottom: 0%;
+line-height: 2.125rem;
+}
+.upload{
+  font-size: 0.9rem;
+  text-align: center;
+  color: #C2CBE5;
+  font-weight: 100;
+  margin-bottom: 0%;
+}
+
+/* logo section */
+.social-logo{
+  display: flex;
+  width: 19.8rem;
+  border: solid blue;
+  justify-content: space-between;
+  
+}
+.social-logo-section{
+  height: 4rem;
+  border: solid pink;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.social-logo>div{
+  width: 3rem;
+  border: solid lawngreen;
+  height: 2rem;
+}
+.social-logo>div>img{
+  max-width: 100%;
+}
+
+/* form section */
+.form-div{
+  border: solid blue;
+  display: flex;
+  height: 10rem;
+  flex-direction: column;
+ align-items: center;
+
+ gap: 0.7rem;
+ padding-top: 5%;
+ 
+}
+
+input{
+  width: 17.8rem;
+  height: 2.75rem;
+  
+  border-radius: 62.43rem;
+  background: #2c344b;
+  color: white;
+  padding-left: 2rem;
+  font-size: 0.875rem;
+ 
+  font-weight: 400;
+  &::placeholder {    
+    color: white;
+    font-family: 'Chivo';
+  font-weight: 400;
+  }
+}
+input:focus-visible {
+  outline: none;
+}
+
+
+button{
+  width: 19.8rem;
+  height: 2.75rem;
+  border-radius: 62.43rem;
+  background: #54E6AF;
+  border: none;
+  font-weight: 700;
+}
+
