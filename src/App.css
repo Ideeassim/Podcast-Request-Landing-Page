@@ -1,5 +1,10 @@
 
 
+html{
+  height: 46rem;
+  width: 373px;
+  border: solid orange;
+}
 .outer{
   width: 23.4rem;
   height: 68rem;
@@ -11,7 +16,7 @@
 
 .inner{
   width: 23.4rem;
-  height: 60.75rem;   
+  height: 46rem;   
 background: rgb(18, 23, 37);
 opacity: 0.8
 }
@@ -115,7 +120,7 @@ line-height: 2.125rem;
  align-items: center;
 
  gap: 0.7rem;
- padding-top: 5%;
+ padding-top: 0%;
  
 }
 
@@ -150,3 +155,19 @@ button{
   font-weight: 700;
 }
 
+/* TABLET QUERY */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  html{
+    border: solid yellow;
+   
+  }
+  
+  .outer{
+    width: 63rem;
+    height: 1600px;
+    background-size: 1000px 1600px;
+    
+    border: solid  red;
+  }
+}
